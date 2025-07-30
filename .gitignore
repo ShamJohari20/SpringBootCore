@@ -1,0 +1,90 @@
+# =========================
+# Maven
+# =========================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# =========================
+# Spring Boot Specific
+# =========================
+# Ignore Spring Boot devtools restart directory
+.spring-boot-devtools.properties
+.spring-boot-devtools/
+spring.log
+
+# Application configuration
+application-*.yml
+application-*.yaml
+application-*.properties
+bootstrap.yml
+bootstrap.properties
+bootstrap-*.yml
+bootstrap-*.properties
+
+# Sensitive files
+*.key
+*.pem
+*.crt
+*.jks
+*.p12
+
+# =========================
+# Eclipse / Spring Tool Suite
+# =========================
+.classpath
+.project
+.settings/
+.metadata/      # Eclipse workspace lock & settings
+.metadata       # Just in case
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+out/
+
+# =========================
+# NetBeans
+# =========================
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =========================
+# Visual Studio Code
+# =========================
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+*.log.*
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Files
+# =========================
+.env
+*.env
+
+# =========================
+# Compiled Class Files
+# =========================
+*.class
+
+# =========================
+# Build Tools
+# =========================
+build/
