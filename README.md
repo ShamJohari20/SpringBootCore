@@ -18,33 +18,44 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-  - [Testing](#testing)
 - [Author](#author)
 
 ---
 
 ## Overview
 
-**Spring Boot Core** is a curated set of beginner-to-intermediate level projects that showcase key Spring Boot fundamentals. It focuses on **auto-configuration**, **starter dependencies**, and **simplified setup** that Spring Boot provides for building production-ready applications faster and with minimal configuration.
+**Spring Boot Core** is a curated set of beginner-to-intermediate level projects that showcase key Spring Boot fundamentals.  
+It focuses on **auto-configuration**, **starter dependencies**, and the **simplified setup** that Spring Boot provides for building production-ready applications faster and with minimal configuration.
 
 ### Why Spring Boot Core?
 
 This collection helps Java developers to:
 
-- 🚀 Quickly build Spring-based applications
-- 🧩 Understand auto-configuration and embedded servers
-- ⚙️ Explore common use-cases like REST APIs, properties handling, and more
-- 🔧 Learn development patterns using real project examples
+- 🚀 Quickly build Spring-based applications  
+- 🧩 Understand auto-configuration and embedded servers  
+- ⚙️ Explore common use-cases like REST APIs, dependency injection, scheduling, database access, and more  
+- 🔧 Learn development patterns using real project examples  
 
 ---
 
 ## Projects Included
 
-| Project Folder Name                         | Description                                  |
-|---------------------------------------------|----------------------------------------------|
-| `SBProj01-SeasonFinder`                     | REST API to determine season based on month  |
-| `SBProj02-WishMessageGenerator`             | Spring Boot app that returns wish messages   |
-| `SBProj03-WeekDayFinder`                    | Determines the weekday for a given date      |
+| Project Folder Name                                         | Description                                                      |
+|-------------------------------------------------------------|------------------------------------------------------------------|
+| `SBProj01-SeasonFinder`                                     | REST API to determine season based on month                      |
+| `SBProj02-WishMessageGenerator`                             | Spring Boot app that returns wish messages                       |
+| `SBProj03-WeekDayFinder`                                    | Determines the weekday for a given date                          |
+| `SBProj04-DependencyInjectionApplication`                   | Demonstrates Spring Boot Dependency Injection basics             |
+| `SBProj05-DependencyInjectionApplicationWithSolvingAmbiguityUsingPropertyFileAndXmlFile` | Solving dependency ambiguity using property file & XML           |
+| `SBProj06-DependencyInjectionApplicationSolvingAmbiguityProblemUsingFactoryBeanInterfaceSupport` | Ambiguity resolution using `FactoryBean` interface support       |
+| `SBProj07-Scedulling`                                       | Introduction to scheduling tasks in Spring Boot                  |
+| `SBProj08-ScedullingCorn`                                   | Advanced scheduling with Cron expressions                        |
+| `SBProj09-MiniProjectEmployeeDataLayeredApp`                | Employee management mini-project with layered architecture       |
+| `SBProj10-SendMailApplication`                              | Sending emails with Spring Boot Mail support                     |
+| `SBProj11-MiniProjectEmployeeDataLayeredAppWithMySQL`       | Employee layered app integrated with MySQL database              |
+| `SBProj12-MiniProjectEmployeeDataLayeredAppWithOracleMySQLWithFactoryBean` | Employee layered app with Oracle/MySQL using FactoryBean         |
+| `SBProj13-SpringDataMongoDB`                                | CRUD operations using Spring Data MongoDB                        |
+| `SBProj14-SPELWithValue`                                    | Demonstrating Spring Expression Language (SpEL) with `@Value`    |
 
 ---
 
@@ -54,9 +65,12 @@ This collection helps Java developers to:
 - **Spring Boot 3.2.4**
 - **Spring Web**
 - **Spring Context**
+- **Spring Mail**
+- **Spring Data JPA**
+- **Spring Data MongoDB**
 - **Maven** (for build and dependency management)
 - **Spring Initializr**
-- **IntelliJ IDEA / Eclipse / STS**
+- **IDE**: IntelliJ IDEA / Eclipse / Spring Tool Suite
 
 ---
 
@@ -90,8 +104,9 @@ mvn spring-boot:run
 # You can run unit tests using
 mvn test
 
+
 ```
-## 👤 Author
+##  Author
 
 **Sham Johari**  
 [GitHub](https://github.com/ShamJohari20)

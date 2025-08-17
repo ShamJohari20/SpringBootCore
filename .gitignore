@@ -88,3 +88,4 @@ Thumbs.db
 # Build Tools
 # =========================
 build/
+/.metadata/
